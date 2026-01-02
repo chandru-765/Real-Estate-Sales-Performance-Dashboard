@@ -1,41 +1,59 @@
 # Real Estate Sales Performance Dashboard
 
 ## Project Overview  
-This project presents a detailed Power BI dashboard focused on analyzing real estate sales and rental performance.  
-It helps users understand market trends using structured and visual data insights.  
+This project focuses on building a comprehensive **Power BI dashboard** to analyze real estate sales and rental performance across major Indian cities such as **Bangalore, Mumbai, Pune, New Delhi, and Nagpur**. The dashboard provides meaningful insights into property trends using clean, structured, and well-processed data.
 
-## Cities Covered  
-The dashboard includes major Indian cities such as Bangalore, Mumbai, Pune, New Delhi, and Nagpur.  
-Each city is analyzed individually to identify location-based performance patterns.  
+## Purpose of the Project  
+The main objective is to understand rental behavior, pricing patterns, and property distribution across cities. It helps stakeholders make informed decisions by visualizing real estate performance through interactive charts and summary metrics.
 
-## Key Metrics Analyzed  
-The project evaluates total properties, average rent, total area, and rental distribution.  
-These metrics help in understanding demand, pricing, and market strength.  
+## Key Insights Covered  
+The dashboard analyzes **total properties, average rent, total area, and rental distribution** across cities.  
+It also evaluates **BHK types, furnishing status, and property categories** to identify high-demand and high-return segments.
 
-## Property Classification  
-Properties are categorized by BHK type, furnishing status, and property category.  
-This classification supports deeper analysis of customer preferences and supply trends.  
+## Data Cleaning Process (Power Query Steps)
 
-## Data Visualization  
-Interactive charts and summary tables are used for better interpretation.  
-Visuals make complex data easy to understand and compare across cities.  
+### 1. Source  
+Data is imported from the original source into Power Query for transformation.
 
-## Business Insights  
-The dashboard helps identify high-performing cities and profitable rental segments.  
-It supports data-driven decisions for investors and real estate professionals.  
+### 2. Promoted Headers  
+The first row is converted into column headers for proper identification.
 
-## Practical Use Case  
-This project is ideal for analytics portfolios and interview demonstrations.  
-It showcases real-world data handling and visualization skills.  
+### 3. Changed Type  
+Each column is assigned the correct data type such as text, number, or date.
 
-## Technical Strength  
-Clean datasets and structured modeling ensure accurate analysis.  
-The project follows best practices in Power BI dashboard design.  
+### 4. Removed Duplicate Records  
+Duplicate entries are removed to maintain data accuracy.
 
-## Learning Outcome  
-Users gain hands-on experience in data analysis and storytelling.  
-It strengthens understanding of real estate analytics workflows.  
+### 5. Removed Blank Rows  
+Empty or null rows are eliminated to ensure clean analysis.
+
+### 6. Duplicated Columns  
+Specific columns are duplicated when transformations are needed without affecting original data.
+
+### 7. Reordered Columns  
+Columns are rearranged logically for better readability and analysis flow.
+
+### 8. Split Column by Position  
+Fixed-length values are separated into multiple columns where required.
+
+### 9. Split Column by Delimiter  
+Columns containing combined values are split using delimiters like commas or hyphens.
+
+### 10. Replaced Null and Error Values  
+Missing and error values are replaced to avoid calculation issues.
+
+### 11. Removed Unnecessary Columns  
+Irrelevant fields are removed to keep the dataset clean and optimized.
+
+### 12. Renamed Columns  
+Columns are renamed for better clarity and understanding.
+
+### 13. Sorted Rows  
+Data is sorted to improve readability and support accurate visual analysis.
+
+## Final Outcome  
+This end-to-end process results in a clean, structured, and analysis-ready dataset.  
+The dashboard effectively showcases real estate trends, supports business decision-making, and demonstrates strong data analytics and Power BI skills.
 
 ## Conclusion  
-This dashboard delivers meaningful insights through structured analysis.  
-It serves as a complete end-to-end real estate analytics solution.  
+This project serves as a complete real-world example of data preparation, transformation, and visualization, making it ideal for portfolios, interviews, and professional analytics use cases.
